@@ -1,0 +1,145 @@
+body{
+    margin:0;
+}
+
+.fa-mug-hot{
+    color:white;
+    font-size: 40px;
+    margin: 10px;
+}
+
+header{
+    background-image: url(../img/portada.jpg);
+    height: 100vh ;
+    background-size: cover;
+}
+
+ul{
+    color:white;
+    display: flex;
+
+}
+
+li{
+    list-style: none;
+    margin-right: 15px ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulos{
+    text-align: center;
+    color: white;
+    margin-top: 15vh ;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+/* Sección Historia */
+
+#historia{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(77, 47, 23);
+
+}
+
+.info_izq{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.foto_historia{
+    width: 50%;
+    height: 100vh;
+}
+
+.verMas{
+    background-color: rgba(228, 183, 99, 0.89);
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.verMas:hover{
+    background-color:  rgba(248, 169, 21, 0.89);
+}
+
+/* Contacto */
+
+#contacto{
+    height: 40vh;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+}
+
+.footer_centrado{
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* Adicional */
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.info_izq h3{
+    color: white;
+}
+
+label{
+    font-size: 20px;
+}
+
+#contacto p{
+    font-size: 20px;
+    color:black;
+}
+
+.info_izq p{
+    color: white;
+}
+
